@@ -6,4 +6,4 @@ RUN javac -d bin src/HelloWorld.java
 RUN echo hello
 ENTRYPOINT ["java", "-cp", "bin", "HelloWorld"]
 ENV FOO bar
-MAINTAINER i built this :) thanks
+MAINTAINER i built this :) thanks .. this is a change i added to test git<>dockerhub connection
